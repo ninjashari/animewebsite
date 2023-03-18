@@ -12,13 +12,9 @@
       crossorigin="anonymous"
     />
   </head>
-  <body class="bg-dark">
-    <nav
-      class="navbar navbar-expand-lg bg-dark"
-      data-bs-theme="dark"
-      style="margin-bottom: 10rem"
-    >
-      <div class="container">
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
         <a class="navbar-brand" href="./index.html">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -36,6 +32,11 @@
             ></path>
           </svg>
         </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -68,7 +69,7 @@
           <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
             <input
               type="search"
-              class="form-control form-control-dark text-bg-dark"
+              class="form-control"
               placeholder="Search..."
               aria-label="Search"
             />
@@ -94,7 +95,7 @@
                 aria-describedby="emailHelp"
               />
               <label for="floatingInput">Username</label>
-              <div id="emailHelp" class="form-text" style="color: white">
+              <div id="emailHelp" class="form-text">
                 Please enter username, not the email address.
               </div>
             </div>
@@ -105,37 +106,6 @@
         </div>
         <div class="col"></div>
       </div>
-    </div>
-
-    <div class="container">
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <div class="col-md-4 d-flex align-items-center">
-          <a class="navbar-brand" href="./index.html">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="32"
-              fill="currentColor"
-              class="bi bi-p-square-fill"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M8.27 8.074c.893 0 1.419-.545 1.419-1.488s-.526-1.482-1.42-1.482H6.778v2.97H8.27Z"
-              ></path>
-              <path
-                d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Zm3.5 4.002h2.962C10.045 4.002 11 5.104 11 6.586c0 1.494-.967 2.578-2.55 2.578H6.784V12H5.5V4.002Z"
-              ></path>
-            </svg>
-          </a>
-          <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Company, Inc</span>
-        </div>
-    
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex navbar-dark">
-          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
-        </ul>
-      </footer>
     </div>
 
     <script
